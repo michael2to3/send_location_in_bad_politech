@@ -4,10 +4,10 @@ services:
   app:
     build: .
     environment:
-      - API_ID=API_ID
-      - API_HASH=API_HASH
-      - SESSION_NAME=SESSION_NAME
-      - PHONE_NUMBER=PHONE_NUMBER
+      - API_ID=26409318
+      - API_HASH=b009aae712c6887e7db8760e5a9338b2
+      - SESSION_NAME=my_session
+      - PHONE_NUMBER=+79992132531
       - AUTH_CODE=YOUR_AUTH_CODE
     volumes:
       - .:/app

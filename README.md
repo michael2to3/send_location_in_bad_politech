@@ -11,6 +11,14 @@ This repository contains a Python script that sends live location to Telegram.
 - Run `pip install -r requirements.txt` to install the dependencies
 - Replace `YOUR_API_ID`, `YOUR_API_HASH`, `YOUR_SESSION_NAME`, `YOUR_USERNAME` and `YOUR_PHONE_NUMBER` in the `main.py` script with your own values
 
+## Telegram API
+- You need to create an API client to use this script. You can do it by following these steps:
+  1. Go to [my.telegram.org](https://my.telegram.org/)
+  2. Log in using your Telegram account
+  3. Click on `API Development Tools`
+  4. Fill in the required fields and create your API client
+  5. Replace `YOUR_API_ID` and `YOUR_API_HASH` in the `main.py` script with the values obtained in the previous step
+
 ## Usage
 - Run `python main.py` to send live location
 
