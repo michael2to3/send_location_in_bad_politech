@@ -5,11 +5,12 @@ This repository contains a Python script that sends live location to Telegram.
 ## Requirements
 - Python 3.9+
 - telethon library
+- schdule library
 
 ## Installation
 - Clone the repository
 - Run `pip install -r requirements.txt` to install the dependencies
-- Replace `YOUR_API_ID`, `YOUR_API_HASH`, `YOUR_SESSION_NAME`, `YOUR_USERNAME` and `YOUR_PHONE_NUMBER` in the `main.py` script with your own values
+- Replace `YOUR_API_ID`, `YOUR_API_HASH`, `YOUR_SESSION_NAME`, `YOUR_USERNAME` and `YOUR_PHONE_NUMBER` in the `docker-compose.yml` or `main.py`
 
 ## Telegram API
 - You need to create an API client to use this script. You can do it by following these steps:
@@ -17,10 +18,11 @@ This repository contains a Python script that sends live location to Telegram.
   2. Log in using your Telegram account
   3. Click on `API Development Tools`
   4. Fill in the required fields and create your API client
-  5. Replace `YOUR_API_ID` and `YOUR_API_HASH` in the `main.py` script with the values obtained in the previous step
+  5. Replace `YOUR_API_ID` and `YOUR_API_HASH` in the `docker-copose.yml` or `main.py`
 
 ## Usage
 - Run `python main.py` to send live location
+- Or you can use docker
 
 ## Docker
 - Build the container using the command `docker build -t your_image_name .`
