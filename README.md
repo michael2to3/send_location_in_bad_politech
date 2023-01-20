@@ -24,6 +24,12 @@ This repository contains a Python script that sends live location to Telegram.
 - Run `python main.py` to send live location
 - Or you can use docker
 
+## Session
+- You can use the `telethon` library's terminal client to create a session. Here's an example of how you can use the CLI client to create a session:
+```sh
+python -m telethon --session my_session --api_id YOUR_API_ID --api_hash YOUR_API_HASH
+```
+
 ## Docker
 - Build the container using the command `docker build -t your_image_name .`
 - Run the container using the command `docker run your_image_name`
