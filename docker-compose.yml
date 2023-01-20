@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    environment:
+      - API_ID=26409318
+      - API_HASH=b009aae712c6887e7db8760e5a9338b2
+      - SESSION_NAME=my_session
+      - PHONE_NUMBER=+79992132531
+      - AUTH_CODE=YOUR_AUTH_CODE
+    volumes:
+      - .:/app
+    command: ["python", "main.py"]
+
